@@ -114,7 +114,7 @@ function handleScissorsClick(humanChoice) {
 
 function checkForVictory() {
 
-    if (humanScore >= 3) {
+    if (humanScore >= 5) {
         resultDiv.textContent = "You win the game! Congratulations!"
         humanScore = 0;
         computerScore = 0;
@@ -126,7 +126,7 @@ function checkForVictory() {
         computerElement.style.backgroundColor = "red";
     }
 
-    if (computerScore >= 3) {
+    if (computerScore >= 5) {
         resultDiv.textContent = "You lose the game! Sorry!"
         humanScore = 0;
         computerScore = 0;
