@@ -12,7 +12,9 @@ function getComputerChoice() {
 }
 
 function getHumanChoice() {
-    return prompt("Please enter rock, paper, or scissors.").toUpperCase();
+    // return prompt("Please enter rock, paper, or scissors.").toUpperCase();
+
+    
 }
 
 function playRound(computerChoice, humanChoice) {
@@ -57,12 +59,12 @@ function playGame() {
     let humanScore = 0;
     let computerScore = 0;
 
-    for (let i = 0; i <= 4; i++) {
+    // for (let i = 0; i <= 4; i++) {
         let result = playRound(getComputerChoice(), getHumanChoice());
         if (result == "HUMAN") {humanScore++;}
         if (result == "COMPUTER") {computerScore++;}
-        if (result == "TIE") {i--;}
-    }
+        // if (result == "TIE") {i--;}
+    // }
 
     console.log("Game Over!")
     console.log("Your score: " + humanScore);

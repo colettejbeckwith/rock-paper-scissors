@@ -1,0 +1,182 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    min-height: 100vh;
+    max-height: 100vh;
+}
+
+.wrapper {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: rgb(159, 204, 244);
+    border-bottom: solid 2px black;
+}
+
+.header-text {
+    padding: 30px;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.game-box {
+    background-color: aliceblue;
+    padding: 45px 30px;
+}
+
+.shoot, .who-played {
+    text-align: center;
+    margin-bottom: 10px;
+    font-weight: 500;
+    font-size: x-large;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.buttons button {
+    flex: 1 1 200px;
+    border-radius: 30px;
+    padding: 75px 0px;
+    border: solid 2.5px black;
+    font-size: larger;
+    box-shadow: 2px 2px 3px rgb(82, 80, 80);
+    position: relative;
+    transition: all 0.1s ease;
+}
+
+.buttons button:active {
+    box-shadow: 0 1px 3px rgb(82, 80, 80);
+    top: 3px;
+}
+
+#rock {
+    background-color: rgba(244, 165, 96, 0.628);
+}
+
+#rock:hover {
+    background-color: sandybrown;
+}
+
+#paper {
+    background-color: rgba(250, 235, 215, 0.509);
+}
+
+#paper:hover {
+    background-color: rgb(242, 220, 192);
+}
+
+#scissors {
+    background-color: rgba(192, 192, 192, 0.523);
+}
+
+#scissors:hover {
+    background-color: silver;
+}
+
+.scores {
+    background-color: aliceblue;
+    padding: 20px 160px;
+}
+
+.score-board {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-size: large;
+}
+
+.score-instance {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.who-scored {
+    padding-bottom: 5px;
+}
+
+.number-scored {
+    font-size: xx-large;
+    border: solid 2px black;
+    /* padding: 10px 20px; */
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.action {
+    background-color: white;
+}
+
+.action-box {
+    background-color: aliceblue;
+    text-align: center;
+}
+
+.footer {
+    background-color: rgb(159, 204, 244);
+    border-top: solid 2px black;
+    font-size: x-small;
+    text-align: center;
+    padding: 15px;
+}
+
+.play-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gameplay {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 60px;
+}
+
+.card-played-slot {
+    background-color: white;
+    /* padding: 78px; */
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 100px;
+    border: solid 2px black;
+    justify-content: center;
+    align-items: center;
+}
+
+.versus {
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+.result {
+    height: 20px;
+}
+
+
+
+
