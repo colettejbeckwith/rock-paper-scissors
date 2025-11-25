@@ -36,7 +36,7 @@ function playRound(computerChoice, humanChoice) {
     if (computerChoice == "ROCK") {
         if (humanChoice == "ROCK") { // TIE
             resultDiv.textContent = "Tie!";
-            resultElement.style.color = black;
+            resultElement.style.color = "black";
             humanCardDiv.textContent = "ROCK";
             humanElement.style.backgroundColor = "sandybrown";
         } else if (humanChoice == "PAPER") {
